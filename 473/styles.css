@@ -1,0 +1,370 @@
+header{
+background-color: black;
+height: 40px;
+-ms-scroll-limit: 0ch;
+}
+header a,header a:hover{
+    color: white;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "nyt-franklin", Ariel, Sans-serif;
+}
+img{
+    height: 100px;
+    width: 344px;
+    color: #000;
+}
+button{
+    background-color: white;
+    border: white;
+}
+.topnav{
+    
+    padding: 40px 20px;
+    
+    text-decoration: none;
+    line-height: 1.25;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 0;
+    text-align: left;
+    overflow: visible;
+    opacity: 1000;
+
+}
+.topnav a{
+    margin-left: 20px;
+    color:black;
+}
+.topnav a:hover
+{
+    border-bottom: 2px solid #F117B4;
+    text-decoration: none;
+    color:black; 
+
+}
+
+
+.login a,.login{
+    color: #000;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1;
+    padding-top: 50px;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    
+}
+
+
+.dropdown {
+    
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    block-overflow: true;
+    background-color: white;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    margin-left: 440px;
+    text-decoration: none;
+    display: block;
+    color: #5d5d5d;
+    padding: 10px 0;
+    font-size: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+    float: none;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    
+}
+
+.dropdown-content a:hover{
+    padding-left: 10px;
+    border-bottom: none;
+}
+.r3{
+    background-color: #ff4d4d;
+    font-size: 34px;
+    text-align: center;
+    line-height: 1;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.p1{
+    color: #ffffff;
+    text-decoration: inherit;
+    font-family: nyt-karnak-display-130124;
+    font-weight: 1000;
+    
+    
+    
+    
+}
+.p2{
+    font-weight: bold;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    color:#ffff80;
+}
+.p3{
+    color: #ffffff;
+    text-decoration: inherit;
+    font-weight: 400;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+}
+.r4 p{
+    color: #4a4a4a;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.25;
+    padding-top:20px;
+}
+.r4 p strong{
+    font-weight: 1000;
+    font-size: 16px;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+.box1{
+   
+    background-color:#4d79ff;
+    height:220px;
+    border-radius: 10px;
+    
+}
+.box2{
+    
+    background-color:#4d0099;
+    height:220px;
+    float:right;
+    border-radius: 10px;
+    
+    
+}
+.box3{
+    
+    background-color:black;
+    float:right;
+    border-radius: 10px;
+    height:220px;
+    
+}
+.headbox{
+    text-align: left;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 1.25;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+strike{
+    color: hsla(0,0%,100%,.5);
+    text-decoration: line-through;
+    line-height: 1;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 20px;
+}
+.p1strike{
+    line-height: 1;
+    color: #fff;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+.p2strike{
+    text-align: left;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    
+    color:white;
+    padding-left: 20px;
+}
+.boxbtn{
+    background-color:#66d9ff;
+    text-align: left;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-weight: 1000;
+    font-size: 16px;
+    line-height: 1.25;
+    width:240px;
+    margin-left: 10px;
+    margin-right:10px;
+    color:white;
+    margin-bottom:40px;
+}
+.boxbtn:hover{
+    background-color: white;
+    color:blue;;
+}
+.r5{
+    margin-top:30px;
+}
+
+.glyphicon-ok{
+    margin-top:20px;
+    text-align: left;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-weight: 1000;
+    font-size: 16px;
+    line-height: 1.25;
+}
+.c strong{
+    text-align: left;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+}
+.d{
+    display: inline;
+    font-weight: 1000px;
+    text-align: left;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+}
+.bonusbtn{
+    background-color:red;
+    font-family:nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-weight: 1000px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-left:5px;
+    height: 30px;
+    color:white;
+    padding:0px;
+
+}
+.r6:hover{
+    cursor: pointer;
+    
+}
+.con1:hover,.con2:hover{
+color:blue;
+}
+.note{
+    color: #6e6e6e;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    opacity: .7;
+    text-align: left;
+    margin-top:30px;
+}
+.moreoptionshead{
+ margin-top:50px;
+ color: #000;
+ font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+ font-size: 26px;
+ font-weight: 100;
+ line-height: 28px
+}
+.wellheader{
+    color: #000;
+    display: inline;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    cursor: pointer;
+    line-height: 1.25;
+}
+
+.wellcontent{
+    color:black;
+    font-size: 17px;
+    text-align: left;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+    margin-top: 5px;
+}
+.well a{
+  
+    border-radius: 5px;
+    color:blue;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    
+    text-decoration: underline;
+    
+    text-align: left;
+    cursor: pointer;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    line-height: 1.25;
+}
+
+.faq{
+    font-weight: 700;
+    line-height: 20px;
+    color: #2e84ed;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+}
+
+.card-body{
+    color: #000;
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-left: 80px;
+    margin-top:40px;
+}
+
+.btn-primary{
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 1000;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #2e84ed;
+    border-radius: 4px;
+    color: #fff;
+    width:180px;
+}
+
+.rowf{
+    background-color:black;
+    width: 100%;
+    height: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:30px;
+}
+.imlog{
+    height:50px;
+    width:250px;
+}
+.nyt{
+    margin-top: 50px;
+}
+.footp{
+    font-family: nyt-franklin,Helvetica Neue,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.38;
+    color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+    
+}
